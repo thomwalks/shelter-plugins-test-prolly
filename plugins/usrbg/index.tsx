@@ -6,7 +6,7 @@ const {
 const { getFiber, reactFiberWalker } = shelter.util;
 
 // todo: did this move? or is it just dead forever?
-const dbUrl = `https://cdn.jsdelivr.net/gh/Discord-Custom-Covers/usrbg@63fbbbe59880e284ff84d881c2f35413d5d5ae80/dist/usrbg.json`;
+const dbUrl = `https://usrbg.is-hardly.online/users`;
 
 const db = fetch(dbUrl)
 	.then((r) => r.json())
